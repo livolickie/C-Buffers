@@ -1,8 +1,8 @@
 # C++ Buffers
-Easy API that provides buffers written in C++
-Author: Livolickie
-Function Manual:
-Buffer - the constructor, is passed 1 parameter - the size of your buffer. Example: Buffer b (16) - Initialize the buffer with a size of 16 bytes
+>Easy API that provides buffers written in C++
+>Author: Livolickie
+>Function Manual:
+>Buffer - the constructor, is passed 1 parameter - the size of your buffer. Example: Buffer b (16) - Initialize the buffer with a size of 16 bytes
 void write <var_type> (var_type) - write some value to the buffer. Example: b.write <int> (5) - write an integer value of 5 of type int (4 bytes)
 var_type read <var_type> () - read some value from the buffer. Example: b.read <double> () - read the double-precision float value of double type (8 bytes)
 void write_string (char *) - write the string to the buffer. Example: b.write_string ("Hello") - write the string "Hello" with size 6 bytes, the line + \ 0 itself
